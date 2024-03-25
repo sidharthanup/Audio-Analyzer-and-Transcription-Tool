@@ -65,7 +65,7 @@ function App() {
             }
 
         }).catch((error) => {handleNetworkErrors(error)})
-          
+        /*
         axios.get('/transcribe/', {params:{'folder':inputDataFolder, 'filename':file.name}})
         .then((response) => {
             const data = response.data
@@ -79,6 +79,7 @@ function App() {
             }
             
         }).catch((error) => {handleNetworkErrors(error)})
+        */
     }
 
     function NewlineText(text) {
